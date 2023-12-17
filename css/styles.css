@@ -95,18 +95,6 @@ body {
     background-color: #ffffff;
 }
 
-.logo-word {
-    color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-
-}
 
 .logo {
     font-family: Raleway, sans-serif;
@@ -123,6 +111,24 @@ body {
     position: relative;
     color: #404bbf;
 }
+
+
+.logo-word {
+    color: #2e2f42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
 
 /* ============== Navigation+ Mail============= */
 .navigation {
