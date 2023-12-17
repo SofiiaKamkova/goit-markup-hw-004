@@ -154,7 +154,7 @@ body {
     color: #404bbf;
 }
 
-.stripe:hover::after {
+.logo-word::after{
     content: "";
     position: absolute;
     display: block;
